@@ -21,6 +21,8 @@ By the end of this, students should be able to:
 - Run `grunt serve`
 - Clone/update this repo: [JWApi](https://github.com/fishermanswharff/JWApi)
 - `cd` into the `JWApi`
+- Run `bundle install`
+- Run `rake db:setup`
 - Run `rails s` to run the `JWApi` in a localhost
 - Use this `curl` request to make sure the api is working properly: `curl -I http://localhost:3000/users`
 
