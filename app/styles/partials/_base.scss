@@ -1,3 +1,6 @@
+body {
+  @include defaults;
+}
 section.main-content {
   @extend .container;
   @extend .clearfix;
@@ -11,13 +14,5 @@ section.main-content {
 
   div.forms {
     @extend .grid_6;
-  }
-}
-
-footer {
-  @extend .container;
-
-  div.column1 {
-    @extend .grid_4;
   }
 }
