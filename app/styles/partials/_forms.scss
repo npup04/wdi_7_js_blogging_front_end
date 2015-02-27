@@ -1,0 +1,19 @@
+div.form-group {
+  display: block;
+
+  label {
+    display: block;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+  }
+
+  textarea#post-body {
+    min-height: 100px;
+  }
+}
+

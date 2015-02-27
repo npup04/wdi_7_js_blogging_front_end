@@ -1,0 +1,32 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  width: 100%;
+  background: rgba(25,25,25,0.9);
+  z-index: $z-nav;
+
+  ul {
+    @include defaults;
+    list-style:none;
+
+    li {
+      @include defaults;
+      display: inline-block;
+      &.nav-left { float: left; }
+      &.nav-right { float: right; }
+      &.text-only { padding-top: 20px; }
+      a {
+        display: block;
+        margin: 10px;
+        color: $white;
+        font-family: $header-font;
+        font-weight: 300;
+        text-decoration: none;
+      }
+      &.resume { text-indent: -9999px; }
+    }
+  }
+  .indent { margin: 13px auto; }
+}

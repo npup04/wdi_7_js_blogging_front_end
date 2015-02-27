@@ -1,0 +1,23 @@
+section.main-content {
+  @extend .container;
+  @extend .clearfix;
+  padding-top: 30px;
+
+  header {}
+
+  div.posts {
+    @extend .grid_10;
+  }
+
+  div.forms {
+    @extend .grid_6;
+  }
+}
+
+footer {
+  @extend .container;
+
+  div.column1 {
+    @extend .grid_4;
+  }
+}

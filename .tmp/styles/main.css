@@ -1,0 +1,821 @@
+@charset "UTF-8";
+/*—————————————————————————————————————————
+*****************Z-Index********************
+——————————————————————————————————————————*/
+/*—————————————————————————————————————————
+*****************Colors********************
+——————————————————————————————————————————*/
+/*——————————————————————————————————————————
+***************TYPOGRAPHY*****************
+——————————————————————————————————————————*/
+/*
+  Variable Grid System (Fluid Version).
+  Learn more ~ http://www.spry-soft.com/grids/
+  Based on 960 Grid System - http://960.gs/  960 Fluid - http://www.designinfluences.com/
+
+  Licensed under GPL and MIT.
+*/
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000312}}
+.container, section.main-content, footer {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000317}}
+.container .grid_1, section.main-content .grid_1, footer .grid_1,
+.container .grid_2,
+section.main-content .grid_2,
+footer .grid_2,
+.container .grid_3,
+section.main-content .grid_3,
+footer .grid_3,
+.container .grid_4,
+section.main-content .grid_4,
+footer .grid_4,
+.container footer div.column1,
+footer .container div.column1,
+footer div.column1,
+.container .grid_5,
+section.main-content .grid_5,
+footer .grid_5,
+.container .grid_6,
+section.main-content .grid_6,
+footer .grid_6,
+section.main-content div.forms,
+.container .grid_7,
+section.main-content .grid_7,
+footer .grid_7,
+.container .grid_8,
+section.main-content .grid_8,
+footer .grid_8,
+.container .grid_9,
+section.main-content .grid_9,
+footer .grid_9,
+.container .grid_10,
+section.main-content .grid_10,
+footer .grid_10,
+section.main-content div.posts,
+.container .grid_11,
+section.main-content .grid_11,
+footer .grid_11,
+.container .grid_12,
+section.main-content .grid_12,
+footer .grid_12,
+.container .grid_13,
+section.main-content .grid_13,
+footer .grid_13,
+.container .grid_14,
+section.main-content .grid_14,
+footer .grid_14,
+.container .grid_15,
+section.main-content .grid_15,
+footer .grid_15,
+.container .grid_16,
+section.main-content .grid_16,
+footer .grid_16 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000340}}
+.container .alpha, section.main-content .alpha, footer .alpha {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000341}}
+.container .omega, section.main-content .omega, footer .omega {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000343}}
+.container .grid_1, section.main-content .grid_1, footer .grid_1 {
+  width: 4.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000344}}
+.container .grid_2, section.main-content .grid_2, footer .grid_2 {
+  width: 10.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000345}}
+.container .grid_3, section.main-content .grid_3, footer .grid_3 {
+  width: 16.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000346}}
+.container .grid_4, section.main-content .grid_4, footer .grid_4, .container footer div.column1, footer .container div.column1, footer div.column1 {
+  width: 23.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000347}}
+.container .grid_5, section.main-content .grid_5, footer .grid_5 {
+  width: 29.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000348}}
+.container .grid_6, section.main-content .grid_6, footer .grid_6, section.main-content div.forms {
+  width: 35.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000349}}
+.container .grid_7, section.main-content .grid_7, footer .grid_7 {
+  width: 41.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000350}}
+.container .grid_8, section.main-content .grid_8, footer .grid_8 {
+  width: 48.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000351}}
+.container .grid_9, section.main-content .grid_9, footer .grid_9 {
+  width: 54.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000352}}
+.container .grid_10, section.main-content .grid_10, footer .grid_10, section.main-content div.posts {
+  width: 60.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000353}}
+.container .grid_11, section.main-content .grid_11, footer .grid_11 {
+  width: 66.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000354}}
+.container .grid_12, section.main-content .grid_12, footer .grid_12 {
+  width: 73.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000355}}
+.container .grid_13, section.main-content .grid_13, footer .grid_13 {
+  width: 79.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000356}}
+.container .grid_14, section.main-content .grid_14, footer .grid_14 {
+  width: 85.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000357}}
+.container .grid_15, section.main-content .grid_15, footer .grid_15 {
+  width: 91.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000358}}
+.container .grid_16, section.main-content .grid_16, footer .grid_16 {
+  width: 98.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000360}}
+.container .prefix_1, section.main-content .prefix_1, footer .prefix_1 {
+  padding-left: 6.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000361}}
+.container .prefix_2, section.main-content .prefix_2, footer .prefix_2 {
+  padding-left: 12.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000362}}
+.container .prefix_3, section.main-content .prefix_3, footer .prefix_3 {
+  padding-left: 18.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000363}}
+.container .prefix_4, section.main-content .prefix_4, footer .prefix_4 {
+  padding-left: 25.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000364}}
+.container .prefix_5, section.main-content .prefix_5, footer .prefix_5 {
+  padding-left: 31.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000365}}
+.container .prefix_6, section.main-content .prefix_6, footer .prefix_6 {
+  padding-left: 37.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000366}}
+.container .prefix_7, section.main-content .prefix_7, footer .prefix_7 {
+  padding-left: 43.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000367}}
+.container .prefix_8, section.main-content .prefix_8, footer .prefix_8 {
+  padding-left: 50.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000368}}
+.container .prefix_9, section.main-content .prefix_9, footer .prefix_9 {
+  padding-left: 56.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000369}}
+.container .prefix_10, section.main-content .prefix_10, footer .prefix_10 {
+  padding-left: 62.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000370}}
+.container .prefix_11, section.main-content .prefix_11, footer .prefix_11 {
+  padding-left: 68.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000371}}
+.container .prefix_12, section.main-content .prefix_12, footer .prefix_12 {
+  padding-left: 75.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000372}}
+.container .prefix_13, section.main-content .prefix_13, footer .prefix_13 {
+  padding-left: 81.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000373}}
+.container .prefix_14, section.main-content .prefix_14, footer .prefix_14 {
+  padding-left: 87.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000374}}
+.container .prefix_15, section.main-content .prefix_15, footer .prefix_15 {
+  padding-left: 93.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000376}}
+.container .suffix_1, section.main-content .suffix_1, footer .suffix_1 {
+  padding-right: 6.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000377}}
+.container .suffix_2, section.main-content .suffix_2, footer .suffix_2 {
+  padding-right: 12.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000378}}
+.container .suffix_3, section.main-content .suffix_3, footer .suffix_3 {
+  padding-right: 18.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000379}}
+.container .suffix_4, section.main-content .suffix_4, footer .suffix_4 {
+  padding-right: 25.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000380}}
+.container .suffix_5, section.main-content .suffix_5, footer .suffix_5 {
+  padding-right: 31.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000381}}
+.container .suffix_6, section.main-content .suffix_6, footer .suffix_6 {
+  padding-right: 37.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000382}}
+.container .suffix_7, section.main-content .suffix_7, footer .suffix_7 {
+  padding-right: 43.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000383}}
+.container .suffix_8, section.main-content .suffix_8, footer .suffix_8 {
+  padding-right: 50.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000384}}
+.container .suffix_9, section.main-content .suffix_9, footer .suffix_9 {
+  padding-right: 56.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000385}}
+.container .suffix_10, section.main-content .suffix_10, footer .suffix_10 {
+  padding-right: 62.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000386}}
+.container .suffix_11, section.main-content .suffix_11, footer .suffix_11 {
+  padding-right: 68.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000387}}
+.container .suffix_12, section.main-content .suffix_12, footer .suffix_12 {
+  padding-right: 75.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000388}}
+.container .suffix_13, section.main-content .suffix_13, footer .suffix_13 {
+  padding-right: 81.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000389}}
+.container .suffix_14, section.main-content .suffix_14, footer .suffix_14 {
+  padding-right: 87.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000390}}
+.container .suffix_15, section.main-content .suffix_15, footer .suffix_15 {
+  padding-right: 93.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000392}}
+.container .push_1, section.main-content .push_1, footer .push_1 {
+  left: 6.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000393}}
+.container .push_2, section.main-content .push_2, footer .push_2 {
+  left: 12.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000394}}
+.container .push_3, section.main-content .push_3, footer .push_3 {
+  left: 18.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000395}}
+.container .push_4, section.main-content .push_4, footer .push_4 {
+  left: 25.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000396}}
+.container .push_5, section.main-content .push_5, footer .push_5 {
+  left: 31.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000397}}
+.container .push_6, section.main-content .push_6, footer .push_6 {
+  left: 37.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000398}}
+.container .push_7, section.main-content .push_7, footer .push_7 {
+  left: 43.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\0000399}}
+.container .push_8, section.main-content .push_8, footer .push_8 {
+  left: 50.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003100}}
+.container .push_9, section.main-content .push_9, footer .push_9 {
+  left: 56.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003101}}
+.container .push_10, section.main-content .push_10, footer .push_10 {
+  left: 62.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003102}}
+.container .push_11, section.main-content .push_11, footer .push_11 {
+  left: 68.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003103}}
+.container .push_12, section.main-content .push_12, footer .push_12 {
+  left: 75.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003104}}
+.container .push_13, section.main-content .push_13, footer .push_13 {
+  left: 81.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003105}}
+.container .push_14, section.main-content .push_14, footer .push_14 {
+  left: 87.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003106}}
+.container .push_15, section.main-content .push_15, footer .push_15 {
+  left: 93.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003108}}
+.container .pull_1, section.main-content .pull_1, footer .pull_1 {
+  left: -6.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003109}}
+.container .pull_2, section.main-content .pull_2, footer .pull_2 {
+  left: -12.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003110}}
+.container .pull_3, section.main-content .pull_3, footer .pull_3 {
+  left: -18.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003111}}
+.container .pull_4, section.main-content .pull_4, footer .pull_4 {
+  left: -25.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003112}}
+.container .pull_5, section.main-content .pull_5, footer .pull_5 {
+  left: -31.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003113}}
+.container .pull_6, section.main-content .pull_6, footer .pull_6 {
+  left: -37.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003114}}
+.container .pull_7, section.main-content .pull_7, footer .pull_7 {
+  left: -43.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003115}}
+.container .pull_8, section.main-content .pull_8, footer .pull_8 {
+  left: -50.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003116}}
+.container .pull_9, section.main-content .pull_9, footer .pull_9 {
+  left: -56.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003117}}
+.container .pull_10, section.main-content .pull_10, footer .pull_10 {
+  left: -62.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003118}}
+.container .pull_11, section.main-content .pull_11, footer .pull_11 {
+  left: -68.75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003119}}
+.container .pull_12, section.main-content .pull_12, footer .pull_12 {
+  left: -75.0%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003120}}
+.container .pull_13, section.main-content .pull_13, footer .pull_13 {
+  left: -81.25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003121}}
+.container .pull_14, section.main-content .pull_14, footer .pull_14 {
+  left: -87.5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003122}}
+.container .pull_15, section.main-content .pull_15, footer .pull_15 {
+  left: -93.75%;
+}
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003131}}
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003142}}
+.clearfix:after, section.main-content:after {
+  clear: both;
+  content: ' ';
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003153}}
+.clearfix, section.main-content {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003157}}
+* html .clearfix, * html section.main-content {
+  height: 1%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003161}}
+.clearfix, section.main-content {
+  display: block;
+}
+
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003166}}
+  .container, section.main-content, footer {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003171}}
+  .container .grid_1, section.main-content .grid_1, footer .grid_1,
+  .container .grid_2,
+  section.main-content .grid_2,
+  footer .grid_2,
+  .container .grid_3,
+  section.main-content .grid_3,
+  footer .grid_3,
+  .container .grid_4,
+  section.main-content .grid_4,
+  footer .grid_4,
+  .container footer div.column1,
+  footer .container div.column1,
+  footer div.column1,
+  .container .grid_5,
+  section.main-content .grid_5,
+  footer .grid_5,
+  .container .grid_6,
+  section.main-content .grid_6,
+  footer .grid_6,
+  section.main-content div.forms,
+  .container .grid_7,
+  section.main-content .grid_7,
+  footer .grid_7,
+  .container .grid_8,
+  section.main-content .grid_8,
+  footer .grid_8,
+  .container .grid_9,
+  section.main-content .grid_9,
+  footer .grid_9,
+  .container .grid_10,
+  section.main-content .grid_10,
+  footer .grid_10,
+  section.main-content div.posts,
+  .container .grid_11,
+  section.main-content .grid_11,
+  footer .grid_11,
+  .container .grid_12,
+  section.main-content .grid_12,
+  footer .grid_12,
+  .container .grid_13,
+  section.main-content .grid_13,
+  footer .grid_13,
+  .container .grid_14,
+  section.main-content .grid_14,
+  footer .grid_14,
+  .container .grid_15,
+  section.main-content .grid_15,
+  footer .grid_15,
+  .container .grid_16,
+  section.main-content .grid_16,
+  footer .grid_16 {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98.0%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003195}}
+  .container .alpha, section.main-content .alpha, footer .alpha {
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003196}}
+  .container .omega, section.main-content .omega, footer .omega {
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003198}}
+  .container .prefix_1, section.main-content .prefix_1, footer .prefix_1,
+  .container .prefix_2,
+  section.main-content .prefix_2,
+  footer .prefix_2,
+  .container .prefix_3,
+  section.main-content .prefix_3,
+  footer .prefix_3,
+  .container .prefix_4,
+  section.main-content .prefix_4,
+  footer .prefix_4,
+  .container .prefix_5,
+  section.main-content .prefix_5,
+  footer .prefix_5,
+  .container .prefix_6,
+  section.main-content .prefix_6,
+  footer .prefix_6,
+  .container .prefix_7,
+  section.main-content .prefix_7,
+  footer .prefix_7,
+  .container .prefix_8,
+  section.main-content .prefix_8,
+  footer .prefix_8,
+  .container .prefix_9,
+  section.main-content .prefix_9,
+  footer .prefix_9,
+  .container .prefix_10,
+  section.main-content .prefix_10,
+  footer .prefix_10,
+  .container .prefix_11,
+  section.main-content .prefix_11,
+  footer .prefix_11,
+  .container .prefix_12,
+  section.main-content .prefix_12,
+  footer .prefix_12,
+  .container .prefix_13,
+  section.main-content .prefix_13,
+  footer .prefix_13,
+  .container .prefix_14,
+  section.main-content .prefix_14,
+  footer .prefix_14,
+  .container .prefix_15,
+  section.main-content .prefix_15,
+  footer .prefix_15 {
+    padding-left: 0%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003214}}
+  .container .suffix_1, section.main-content .suffix_1, footer .suffix_1,
+  .container .suffix_2,
+  section.main-content .suffix_2,
+  footer .suffix_2,
+  .container .suffix_3,
+  section.main-content .suffix_3,
+  footer .suffix_3,
+  .container .suffix_4,
+  section.main-content .suffix_4,
+  footer .suffix_4,
+  .container .suffix_5,
+  section.main-content .suffix_5,
+  footer .suffix_5,
+  .container .suffix_6,
+  section.main-content .suffix_6,
+  footer .suffix_6,
+  .container .suffix_7,
+  section.main-content .suffix_7,
+  footer .suffix_7,
+  .container .suffix_8,
+  section.main-content .suffix_8,
+  footer .suffix_8,
+  .container .suffix_9,
+  section.main-content .suffix_9,
+  footer .suffix_9,
+  .container .suffix_10,
+  section.main-content .suffix_10,
+  footer .suffix_10,
+  .container .suffix_11,
+  section.main-content .suffix_11,
+  footer .suffix_11,
+  .container .suffix_12,
+  section.main-content .suffix_12,
+  footer .suffix_12,
+  .container .suffix_13,
+  section.main-content .suffix_13,
+  footer .suffix_13,
+  .container .suffix_14,
+  section.main-content .suffix_14,
+  footer .suffix_14,
+  .container .suffix_15,
+  section.main-content .suffix_15,
+  footer .suffix_15 {
+    padding-right: 0%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003230}}
+  .container .push_1, section.main-content .push_1, footer .push_1,
+  .container .push_2,
+  section.main-content .push_2,
+  footer .push_2,
+  .container .push_3,
+  section.main-content .push_3,
+  footer .push_3,
+  .container .push_4,
+  section.main-content .push_4,
+  footer .push_4,
+  .container .push_5,
+  section.main-content .push_5,
+  footer .push_5,
+  .container .push_6,
+  section.main-content .push_6,
+  footer .push_6,
+  .container .push_7,
+  section.main-content .push_7,
+  footer .push_7,
+  .container .push_8,
+  section.main-content .push_8,
+  footer .push_8,
+  .container .push_9,
+  section.main-content .push_9,
+  footer .push_9,
+  .container .push_10,
+  section.main-content .push_10,
+  footer .push_10,
+  .container .push_11,
+  section.main-content .push_11,
+  footer .push_11,
+  .container .push_12,
+  section.main-content .push_12,
+  footer .push_12,
+  .container .push_13,
+  section.main-content .push_13,
+  footer .push_13,
+  .container .push_14,
+  section.main-content .push_14,
+  footer .push_14,
+  .container .push_15,
+  section.main-content .push_15,
+  footer .push_15 {
+    left: 0%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_grid\.scss}line{font-family:\00003246}}
+  .container .pull_1, section.main-content .pull_1, footer .pull_1,
+  .container .pull_2,
+  section.main-content .pull_2,
+  footer .pull_2,
+  .container .pull_3,
+  section.main-content .pull_3,
+  footer .pull_3,
+  .container .pull_4,
+  section.main-content .pull_4,
+  footer .pull_4,
+  .container .pull_5,
+  section.main-content .pull_5,
+  footer .pull_5,
+  .container .pull_6,
+  section.main-content .pull_6,
+  footer .pull_6,
+  .container .pull_7,
+  section.main-content .pull_7,
+  footer .pull_7,
+  .container .pull_8,
+  section.main-content .pull_8,
+  footer .pull_8,
+  .container .pull_9,
+  section.main-content .pull_9,
+  footer .pull_9,
+  .container .pull_10,
+  section.main-content .pull_10,
+  footer .pull_10,
+  .container .pull_11,
+  section.main-content .pull_11,
+  footer .pull_11,
+  .container .pull_12,
+  section.main-content .pull_12,
+  footer .pull_12,
+  .container .pull_13,
+  section.main-content .pull_13,
+  footer .pull_13,
+  .container .pull_14,
+  section.main-content .pull_14,
+  footer .pull_14,
+  .container .pull_15,
+  section.main-content .pull_15,
+  footer .pull_15 {
+    left: 0%;
+  }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_responsive\.scss}line{font-family:\000035}}
+  section#posts div.post {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_responsive\.scss}line{font-family:\000037}}
+  section#posts div.post div.post-content {
+    font-size: 1.2em;
+  }
+}
+/* Smartphones (landscape) ----------- */
+/* Smartphones (portrait) ----------- */
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_responsive\.scss}line{font-family:\0000327}}
+  section#posts div.post {
+    width: 33.333%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_responsive\.scss}line{font-family:\0000333}}
+  section#posts div.post.withImage a figure img {
+    width: 120%;
+    left: -10%;
+    position: relative;
+  }
+}
+/* iPads (landscape) ----------- */
+/* iPads (portrait) ----------- */
+/* Small Desktops and laptops */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_responsive\.scss}line{font-family:\0000357}}
+  section#posts div.post {
+    width: 33.333%;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/utilities\/_responsive\.scss}line{font-family:\0000365}}
+  section#posts div.post {
+    width: 25%;
+  }
+}
+/* Large screens ----------- */
+/* iPhone 4 ----------- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\000031}}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  width: 100%;
+  background: rgba(25, 25, 25, 0.9);
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\0000310}}
+nav ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\0000314}}
+nav ul li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\0000317}}
+nav ul li.nav-left {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\0000318}}
+nav ul li.nav-right {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\0000319}}
+nav ul li.text-only {
+  padding-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\0000320}}
+nav ul li a {
+  display: block;
+  margin: 10px;
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\0000328}}
+nav ul li.resume {
+  text-indent: -9999px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_nav\.scss}line{font-family:\0000331}}
+nav .indent {
+  margin: 13px auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_base\.scss}line{font-family:\000031}}
+section.main-content {
+  padding-top: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_forms\.scss}line{font-family:\000031}}
+div.form-group {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_forms\.scss}line{font-family:\000034}}
+div.form-group label {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_forms\.scss}line{font-family:\000038}}
+div.form-group input[type="text"],
+div.form-group input[type="email"],
+div.form-group input[type="password"],
+div.form-group textarea {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jason\/Documents\/WebDevImmersive\/repos\/wdi_7_js_blogging_front_end\/app\/styles\/partials\/_forms\.scss}line{font-family:\0000315}}
+div.form-group textarea#post-body {
+  min-height: 100px;
+}
