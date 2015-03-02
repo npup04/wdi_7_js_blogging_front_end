@@ -6,7 +6,11 @@ section.main-content {
   @extend .clearfix;
   padding-top: 30px;
 
-  header {}
+  header {
+    h1 {
+      color: red;
+    }
+  }
 
   div.posts {
     @extend .grid_10;
